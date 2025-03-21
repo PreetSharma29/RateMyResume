@@ -1,12 +1,25 @@
-# React + Vite
+📄 RateMyResume
+RateMyResume is a web application built with Vite, React, and Tailwind CSS that allows users to upload their resume and a job description. The app intelligently analyzes both to generate a detailed score and report based on several hiring factors.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+✅ Resume & Job Description Analysis
+✅ Skill Matching
+✅ Action Verb Count
+✅ Readability Score
+✅ Detailed JSON Report
+✅ Strict Scoring System
 
-Currently, two official plugins are available:
+🧠 Tech Stack
+Vite
+React
+Tailwind CSS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📈 Example Usage
+Upload Resume (CV)
+Enter Job Description (JD)
+Click Analyze
+Receive a structured JSON Report including:
+Readability Score
+Skill Match %
+Number of Action Verbs
+Total Score out of 100
