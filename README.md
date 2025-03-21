@@ -25,3 +25,5 @@ RateMyResume is a web application built with Vite, React, and Tailwind CSS that 
 - Skill Match %
 - Number of Action Verbs
 - Total Score
+
+Live Link : https://rate-my-resume.netlify.app/
