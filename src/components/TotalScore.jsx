@@ -46,7 +46,6 @@ const TotalScore = () => {
         </svg>
 
         <div className="absolute inset-0 flex flex-col items-center justify-center  text-gray-700">
-          {/* <h1 className="text-lg">Total score</h1> */}
           <div className="text-4xl md:text-4xl font-semibold">
             {searchObject["Total score"]}%
           </div>

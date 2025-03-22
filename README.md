@@ -30,7 +30,7 @@ RateMyResume solves this by using the Gemini API to quickly analyze a resume and
 
 ## User Flow
 
-![User Flow](./src/assets/UserFlow.png)
+![User Flow](./src/assets/User-Flow.png)
 
 ## Example Usage
 
