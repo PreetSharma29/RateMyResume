@@ -2,6 +2,11 @@
 
 RateMyResume is a web application built with Vite, React, and Tailwind CSS that allows users to upload their resume and a job description. The app intelligently analyzes both to generate a detailed score and report based on several hiring factors.
 
+## Problem Statement
+
+Many job seekers struggle to match their resumes with specific job descriptions, which lowers their chances of getting noticed. Manually comparing skills, readability, and key action words can be tiring and confusing.
+RateMyResume solves this by using the Gemini API to quickly analyze a resume and job description. It provides a detailed report showing skill match, action verbs used, readability, and a total score — helping users improve their resumes for better job opportunities.
+
 ## Features
 
 - Resume & Job Description Analysis
