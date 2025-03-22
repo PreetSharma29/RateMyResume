@@ -7,24 +7,6 @@ import { removeJobDescription, removeResumeText } from "../utils/formSlice";
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
 
-// export const useGenerateText = async (prompt) => {
-//   const dispatch = useDispatch();
-//   try {
-//     const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-
-//     const result = await model.generateContent(prompt);
-//     const subString = getSubstringBetween(result.response.text(), "n", "`");
-//     const parsedData = await JSON.parse(subString);
-
-//     dispatch(addSearchObject(parsedData));
-
-//     return;
-//   } catch (error) {
-//     console.error("Error generating text:", error);
-//     return "Failed to generate response.";
-//   }
-// };
-
 export const useGenerateText = (prompt) => {
   const dispatch = useDispatch();
 

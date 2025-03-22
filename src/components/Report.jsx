@@ -15,7 +15,7 @@ const Report = () => {
         className="fixed top-0 left-0 right-0 h-2 bg-orange-600 origin-left z-50"
       ></motion.div>
       <div className="flex flex-col justify-center items-center p-8">
-        <div className="flex flex-col justify-center items-center p-8 ">
+        <div className="flex flex-col justify-center items-center p-8">
           <motion.div
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
@@ -28,7 +28,7 @@ const Report = () => {
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.9, ease: "easeOut", duration: 0.7 }}
-            className="text-sm mt-4  text-gray-500 font-thin w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px] text-center"
+            className="text-sm mt-2 text-gray-500 font-thin w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px] text-center"
           >
             This report provides a detailed analysis of your resume against the
             provided job description. It evaluates key factors such as

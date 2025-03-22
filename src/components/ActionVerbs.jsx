@@ -19,14 +19,15 @@ const ActionVerbs = () => {
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.9, ease: "easeOut", duration: 0.7 }}
-        className="text-sm text-gray-500 font-thin my-4 text-center"
+        className="text-sm text-gray-500 font-thin mt-1 mb-4 text-center"
       >
         This section analyzes the use of action verbs in your resume, which help
         make your statements more impactful and engaging to hiring managers.
       </motion.div>
       <div className="flex flex-row  flex-wrap  justify-center items-start">
-        {searchObject["Action verbs used in CV"].map((m) => (
+        {searchObject["Action verbs used in CV"].map((m, i) => (
           <motion.div
+            key={i}
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.9, ease: "easeOut", duration: 0.7 }}
