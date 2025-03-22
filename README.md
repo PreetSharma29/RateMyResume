@@ -1,8 +1,6 @@
-
 # 📄 RateMyResume
 
 RateMyResume is a web application built with Vite, React, and Tailwind CSS that allows users to upload their resume and a job description. The app intelligently analyzes both to generate a detailed score and report based on several hiring factors.
-
 
 ## Features
 
@@ -13,7 +11,6 @@ RateMyResume is a web application built with Vite, React, and Tailwind CSS that 
 - Detailed JSON Report
 - Strict Scoring System
 
-
 ## Tech Stack
 
 **📦 Data Management & State Handling :** React, Redux Toolkit
@@ -22,13 +19,14 @@ RateMyResume is a web application built with Vite, React, and Tailwind CSS that 
 
 **🛠 Bundler & Build Tools :** Vite
 
-
 ## Component Structure
 
-![Component Structure](https://drive.google.com/file/d/1oOTkVvwcCPCMc9Slq0k900hrg001lNI3/view?usp=sharing) 
+![Component Structure](./src/assets/ComponentStructure.png)
+
 ## User Flow
 
-![User Flow](https://drive.google.com/file/d/1HrdQnDioNoR6SGZ0eei_WdlU5yQizY1f/view?usp=sharing)
+![User Flow](./src/assets/UserFlow.png)
+
 ## Example Usage
 
 - Upload Resume (CV)
@@ -39,12 +37,12 @@ RateMyResume is a web application built with Vite, React, and Tailwind CSS that 
   - Skill Match
   - Number of Action Verbs
   - Total Score
+
 ## Screenshots
 
-![App Screenshot 1](https://drive.google.com/file/d/1nXLtnzubrNz2xQ97U2uwBOyT2yhvZFv2/view?usp=sharing) 
+![App Screenshot 1](./src//assets/LandingScreen.png)
 
-![App Screenshot 2](https://drive.google.com/file/d/1bYQVWPukVseksNg3qaGhqsSC0eOrho02/view?usp=sharing)
-
+![App Screenshot 2](./src//assets/Report.png)
 
 ## JSON Report Format (Returned After Analysis)
 
@@ -68,16 +66,12 @@ RateMyResume is a web application built with Vite, React, and Tailwind CSS that 
 }
 ```
 
+## Required Variable
 
-## Required Variable 
-
-To run this project, you will need to add the following  variables to your constants file
+To run this project, you will need to add the following variables to your constants file
 
 `GEMINI_API_KEY`
-
-
 
 ## Demo
 
 Live Link : https://rate-my-resume.netlify.app/
-
