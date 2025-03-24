@@ -45,7 +45,7 @@ RateMyResume solves this by using the Gemini API to quickly analyze a resume and
 
 ## Screenshots
 
-![App Screenshot 1](./src//assets/LandingScreen.png)
+![App Screenshot 1](./src//assets/RateMyResume-LandingScreen.png)
 
 ![App Screenshot 2](./src//assets/Report.png)
 
