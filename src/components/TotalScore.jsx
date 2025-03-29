@@ -21,7 +21,7 @@ const TotalScore = () => {
     >
       <h1 className="text-2xl">Total Score</h1>
 
-      <div className="relative w-64 h-64 my-2">
+      <div className="relative w-68 h-68 my-2">
         <svg width="100%" height="100%">
           <circle
             cx="50%"
@@ -51,12 +51,10 @@ const TotalScore = () => {
           </div>
         </div>
       </div>
-      <p className="text-sm text-gray-500 font-thin text-center">
+      <p className="text-sm md:text-[15px] text-[#686868] font-thin text-center">
         The total score reflects the overall alignment of your resume with the
-        job description. It is calculated out of 100, considering factors such
-        as skill match accuracy, action verb usage, and readability. A higher
-        score indicates a stronger relevance of your resume to the job
-        requirements.
+        job description. A higher score indicates a stronger relevance of your
+        resume to the job requirements.
       </p>
     </motion.div>
   );

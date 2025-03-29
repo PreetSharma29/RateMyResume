@@ -43,11 +43,17 @@ RateMyResume solves this by using the Gemini API to quickly analyze a resume and
   - Number of Action Verbs
   - Total Score
 
-## Screenshots
+## Screenshots Before Testing
 
-![App Screenshot 1](./src//assets/RateMyResume-LandingScreen.png)
+![App Screenshot 1 Before Testing](./src//assets/RateMyResume-LandingScreen.png)
 
-![App Screenshot 2](./src//assets/Report.png)
+![App Screenshot 2 Before Testing](./src//assets/Report.png)
+
+## Screenshots After Testing
+
+![App Screenshot 1 After Testing](./src//assets/LandingScreenAfterTesting.png)
+
+![App Screenshot 2 After Testing](./src//assets/ReportAfterTesting.png)
 
 ## JSON Report Format (Returned After Analysis)
 

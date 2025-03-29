@@ -29,8 +29,9 @@ const ImageSlider = () => {
           y: [0, -590, 0],
         }}
         transition={{
-          duration: 4,
+          duration: 8,
           repeat: Infinity,
+          ease: "linear",
         }}
       >
         {imageDeck1.map((image, index) => (
@@ -47,9 +48,9 @@ const ImageSlider = () => {
           y: [-590, 0, -590],
         }}
         transition={{
-          duration: 5,
+          duration: 8,
           repeat: Infinity,
-          ease: "anticipate",
+          ease: "linear",
         }}
       >
         {imageDeck2.map((image, index) => (
@@ -67,8 +68,9 @@ const ImageSlider = () => {
           y: [0, -590, 0],
         }}
         transition={{
-          duration: 3,
+          duration: 8,
           repeat: Infinity,
+          ease: "linear",
         }}
       >
         {imageDeck3.map((image, index) => (

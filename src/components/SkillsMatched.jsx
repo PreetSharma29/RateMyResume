@@ -19,7 +19,7 @@ const SkillsMatched = () => {
         initial={{ x: -200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ delay: 0.9, ease: "easeOut", duration: 0.7 }}
-        className="text-sm text-gray-500 font-thin mt-1 mb-4 text-center"
+        className="text-sm md:text-[15px] text-[#686868] font-thin mt-2 mb-4 text-center"
       >
         This section provides a detailed comparison of the skills listed in the
         job description against those found in your resume, highlighting the

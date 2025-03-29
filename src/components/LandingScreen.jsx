@@ -18,7 +18,7 @@ const LandingScreen = () => {
         initial={{ x: -400 }}
         whileInView={{ x: 0 }}
         transition={{ ease: "easeOut" }}
-        className="flex flex-col justify-center items-start px-6 md:px-12"
+        className="flex flex-col justify-center items-start px-6 md:px-16 lg:px-24"
       >
         <p className="text-sm uppercase">Get Your Resume Rated with</p>
         <div className="flex flex-row pt-1">
@@ -29,7 +29,7 @@ const LandingScreen = () => {
             Resume!
           </span>
         </div>
-        <p className="text-gray-400 text-sm font-light py-6 w-[300px] md:w-[400px] lg:w-[500px]">
+        <p className="text-sm text-[#686868] font-light py-6 w-[300px] md:w-[400px] lg:w-[500px]">
           Upload your resume, enter the job description, and see how well you
           match. Get insights to improve your chances of landing the job!
         </p>

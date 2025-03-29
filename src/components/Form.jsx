@@ -54,7 +54,7 @@ const Form = () => {
           rows="4"
         ></textarea>
         <button
-          className=" duration-500 ease-in-out bg-orange-600 text-white px-[126px] md:px-[176px] lg:px-[222px] py-4 rounded-md md:text-base lg:text-lg mt-12 hover:bg-black"
+          className=" duration-300 ease-in-out bg-orange-600 text-white px-[126px] md:px-[176px] lg:px-[218px] py-4 rounded-md md:text-base lg:text-lg mt-12 hover:bg-black"
           onClick={handleSubmit}
         >
           Analyze

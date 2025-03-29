@@ -28,14 +28,12 @@ const Report = () => {
             initial={{ x: -200, opacity: 0 }}
             whileInView={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.9, ease: "easeOut", duration: 0.7 }}
-            className="text-sm mt-2 text-gray-500 font-thin w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px] text-center"
+            className="text-[15px] text-[#686868] mt-2  font-thin w-[300px] sm:w-[400px] md:w-[600px] lg:w-[800px] text-center"
           >
             This report provides a detailed analysis of your resume against the
             provided job description. It evaluates key factors such as
             readability, action verb usage, and skill match to help you
             understand how well your resume aligns with the role requirements.
-            Finally, a total score out of 100 is provided, reflecting your
-            resume's relevance and strength based on the job description.
           </motion.div>
         </div>
         <div className="w-full flex flex-col justify-center items-center mt-8">
