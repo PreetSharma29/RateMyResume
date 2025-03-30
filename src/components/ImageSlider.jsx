@@ -22,7 +22,7 @@ const imageDeck3 = [image11, image12, image13, image14, image15];
 
 const ImageSlider = () => {
   return (
-    <motion.div className="hidden h- lg:h-screen w-[400px] md:w-[550px] lg:w-[700px] overflow-y-hidden md:flex flex-row justify-end">
+    <motion.div className="hidden lg:h-screen md:w-[550px] lg:w-[700px] overflow-y-hidden md:flex flex-row justify-end">
       <motion.div
         className="mx-4"
         animate={{

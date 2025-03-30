@@ -5,20 +5,12 @@ import { motion } from "motion/react";
 
 const LandingScreen = () => {
   return (
-    <div
-      initial={{
-        x: 0,
-        opacity: 1,
-      }}
-      exit={{ x: -600, opacity: 0 }}
-      transition={{ duration: 2 }}
-      className="w-screen h-screen object-contain md:object-cover overflow-x-hidden overflow-y-hidden flex flex-row justify-center md:justify-between"
-    >
+    <div className="w-screen h-screen object-contain md:object-cover overflow-x-hidden overflow-y-hidden flex flex-row justify-center md:justify-between 2xl:justify-end">
       <motion.div
-        initial={{ x: -400 }}
+        initial={{ x: -340 }}
         whileInView={{ x: 0 }}
         transition={{ ease: "easeOut" }}
-        className="flex flex-col justify-center items-start px-6 md:px-16 lg:px-24"
+        className="flex flex-col justify-center items-start px-6 md:px-16 lg:px-24 2xl:pl-24 2xl:pr-48"
       >
         <p className="text-sm uppercase">Get Your Resume Rated with</p>
         <div className="flex flex-row pt-1">
